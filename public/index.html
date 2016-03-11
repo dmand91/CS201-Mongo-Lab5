@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comments!</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/comments.js"></script>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<h1> THE COMMENT DATABASE = LEGIT</h1>
+<br>
+
+<form role = "form" id="commentForm" action="">
+  <label for="name">Name: </label><input type="text" id="Name" placeholder="Name"><br>
+ <br> <label for="comment">Comment: </label><input type="text" id="Comment" placeholder="Comment"><br>
+</form>
+<br>
+<button type="button" class="btn btn-primary" id="serialize">Serialize form values</button>
+<button type="button" class="btn btn-primary" id="getThem">Get Comments</button>
+<br>
+<br>
+<div id="json"></div>
+<div id="done"></div>
+<div id="comments"></div>
+</body>
+</html>
